@@ -16,6 +16,9 @@ on:
       - ".readthedocs.yaml"
       - "renovate.json5"
 
+permissions:
+  contents: read
+
 jobs:
   build:
     strategy:
